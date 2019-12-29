@@ -16,7 +16,7 @@
             </tr>
             <tr>
                 <td align="center">Email</td>
-                <td><input type="text" name="email" value="${board.email}"></td>
+                <td>${board.email}</td>
             </tr>
             <tr>
                 <td align="center">제목</td>

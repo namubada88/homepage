@@ -14,11 +14,14 @@ public class BoardController {
     BoardService boardService;
 
     @RequestMapping(value = "/getListBoard.do")
-    public String getListBoard(Model model1, Model model2, HttpServletRequest request) {
+    public String getListBoard(Model model1, Model model2, HttpServletRequest request, BoardVO vo) {
         System.out.println("===>Controller로 getListBoard() 접속");
 
         int currentPageNo = 0;
         int currentRecord = 0;
+
+        System.out.println("ch1 : "+vo.getCh1());
+        System.out.println("ch2 : "+vo.getCh2());
 
         if(request.getParameter("currentPageNo")!=null) {
             currentPageNo = (Integer.parseInt(request.getParameter("currentPageNo")));
@@ -29,10 +32,16 @@ public class BoardController {
             }
         }
 
-        boardService.getListBoard(0, 20);
+        boardService.getListBoard(vo);
         BoardPaging boardPaging = new BoardPaging(boardService.getTotalCount(), currentPageNo);
 
-        model1.addAttribute("boardList", boardService.getListBoard(currentRecord, boardPaging.getPageSize()));
+        vo.setMinLimit(currentRecord);
+        vo.setMaxLimit(boardPaging.getPageSize());
+
+        System.out.println("min"+vo.getMinLimit());
+
+
+        model1.addAttribute("boardList", boardService.getListBoard(vo));
         model2.addAttribute("boardPage", boardPaging);
         return "/board/listBoard.jsp";
     }

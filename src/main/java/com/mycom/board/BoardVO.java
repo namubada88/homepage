@@ -13,6 +13,10 @@ public class BoardVO {
     private int ref;
     private int re_step;
     private int re_level;
+    private String ch1;
+    private String ch2;
+    private int maxLimit;
+    private int minLimit;
 
     @Override
     public String toString() {
@@ -30,6 +34,39 @@ public class BoardVO {
                 ", re_step=" + re_step +
                 ", re_level=" + re_level +
                 '}';
+    }
+
+
+    public int getMaxLimit() {
+        return maxLimit;
+    }
+
+    public void setMaxLimit(int maxLimit) {
+        this.maxLimit = maxLimit;
+    }
+
+    public int getMinLimit() {
+        return minLimit;
+    }
+
+    public void setMinLimit(int minLimit) {
+        this.minLimit = minLimit;
+    }
+
+    public String getCh1() {
+        return ch1;
+    }
+
+    public void setCh1(String ch1) {
+        this.ch1 = ch1;
+    }
+
+    public String getCh2() {
+        return ch2;
+    }
+
+    public void setCh2(String ch2) {
+        this.ch2 = ch2;
     }
 
     public int getNum() {

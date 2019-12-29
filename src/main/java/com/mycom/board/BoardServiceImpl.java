@@ -10,8 +10,8 @@ public class BoardServiceImpl implements BoardService {
     @Autowired
     BoardDAO boardDAO;
 
-    public List<BoardVO> getListBoard(int minLimit, int maxLimit) {
-        return boardDAO.getListBoard(minLimit, maxLimit);
+    public List<BoardVO> getListBoard(BoardVO vo) {
+        return boardDAO.getListBoard(vo);
     }
 
     public BoardVO getBoard(BoardVO vo) {

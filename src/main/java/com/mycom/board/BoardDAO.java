@@ -24,15 +24,12 @@ public class BoardDAO extends SqlSessionDaoSupport {
         super.setSqlSessionFactory(sqlSessionFactory);
     }
 
-    public List<BoardVO> getListBoard(int minLimit, int maxLimit) {
+    public List<BoardVO> getListBoard(BoardVO vo) {
         System.out.println("===> MyBatis로 getListBoard() 기능 처리");
         List<BoardVO> listBoard = new ArrayList<BoardVO>();
-
         /*limit min, max*/
         HashMap<String, Object> params = new HashMap<String, Object>();
-        params.put("minLimit", minLimit);
-        params.put("maxLimit", maxLimit);
-        listBoard = getSqlSession().selectList("AllDAO.getListBoard", params);
+        listBoard = getSqlSession().selectList("AllDAO.getListBoard", vo);
         this.totalCount = getSqlSession().selectOne("AllDAO.getTotalPaging");
         return listBoard;
     }

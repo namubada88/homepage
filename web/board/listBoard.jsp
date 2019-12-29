@@ -4,6 +4,7 @@
 <%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
+
 <header class="w3-container w3-top w3-hide-large w3-green w3-xlarge w3-padding">
     <a href="javascript:void(0)" class="w3-button w3-green w3-margin-right" onclick="w3_open()">☰</a>
     <span>나무바다</span>
@@ -11,7 +12,15 @@
 
 <div class="w3-main" style="margin-left:340px;margin-right:40px; margin-top:80px;">
     <div class="w3-container">
-        <input type="button" value="글쓰기" onclick="window.location='/board/insertBoard.jsp'"/>
+        <input type="button" value="글쓰기" onclick="return checkLogin()"/>
+        <form action="/getListBoard.do" method="post">
+            <select name="ch1">
+                <option value="subject">제목</option>
+                <option value="writer">글쓴이</option>
+            </select>
+            <input type="text" name="ch2">
+            <input type="submit" value="검색">
+        </form>
         <table border=1 style="margin-top: 3px">
             <tr align="center">
                 <td>번호</td>
@@ -32,6 +41,7 @@
             </c:forEach>
         </table>
 
+
         <%--페이징 처리--%>
         <div style="margin-top: 10px">
             <c:set var="Start" value="${boardPage.startPageNo}"></c:set>
@@ -45,8 +55,8 @@
             <c:forEach begin="${boardPage.startPageNo}" end="${boardPage.endPageNo}" step="1">
                 <%--<c:if test="${done_loop ne true}">--%>
                 <c:if test="${i-1 < boardPage.countPage}">
-                <a href="/getListBoard.do?currentPageNo=${i}">[${i}]</a>
-                <c:set var="i" value="${i+1}"></c:set>
+                    <a href="/getListBoard.do?currentPageNo=${i}">[${i}]</a>
+                    <c:set var="i" value="${i+1}"></c:set>
                 </c:if>
                 <%--</c:if>--%>
             </c:forEach>
@@ -60,3 +70,15 @@
 </div>
 
 <%@include file="/indexBottom.jsp" %>
+
+<script>
+    function checkLogin() {
+        var id = '${sessionID}';
+        if (id == '') {
+            alert("로그인 후 글쓰기가 가능합니다.");
+            return false;
+        } else {
+            location.href = '/board/insertBoard.jsp';
+        }
+    }
+</script>

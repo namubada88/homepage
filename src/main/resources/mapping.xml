@@ -13,7 +13,16 @@
     <select id="getListBoard" resultMap="boardResult">
         SELECT SQL_CALC_FOUND_ROWS
         NUM, SUBJECT, WRITER, REG_DATE, READCOUNT
-        FROM BOARD ORDER BY NUM DESC
+        FROM BOARD
+        <where>
+            <if test="ch1 != null and ch1 == 'writer'">
+                AND writer=#{ch2}
+            </if>
+            <if test="ch1 != null and ch1 == 'subject'">
+                AND subject LIKE '%${ch2}%'
+            </if>
+        </where>
+        ORDER BY NUM DESC
         LIMIT #{minLimit}, #{maxLimit}
     </select>
 
@@ -28,7 +37,7 @@
     </select>
 
     <insert id="insertBoard" parameterType="board">
-        INSERT INTO BOARD VALUES((SELECT IFNULL(MAX(num),0)+1 FROM BOARD b), #{writer}, #{email}, #{subject}, #{passwd}, NOW(),0,0,0,0, #{content},'100.100.100.100')
+        INSERT INTO BOARD VALUES((SELECT IFNULL(MAX(num),0)+1 FROM BOARD b), #{writer}, #{email}, #{subject}, #{passwd}, NOW(),0,0,0,0, #{content}, #{ip})
     </insert>
 
     <update id="updateBoard">

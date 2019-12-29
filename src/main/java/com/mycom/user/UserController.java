@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 
 
 @Controller
-@SessionAttributes({"sessionID","sessionNICK"})
+@SessionAttributes({"sessionID","sessionNICK","sessionEMAIL"})
 public class UserController {
     @Autowired
     UserService userService;
@@ -23,7 +23,7 @@ public class UserController {
         UserVO userInfo = userService.getUser(vo);
         model.addAttribute("sessionID", userInfo.getId());
         model.addAttribute("sessionNICK",userInfo.getNick());
-
+        model.addAttribute("sessionEMAIL",userInfo.getEmail());
         return "/index.jsp";
     }
 
@@ -49,6 +49,7 @@ public class UserController {
 
         model.addAttribute("sessionID", userInfo.getId());
         model.addAttribute("sessionNICK",userInfo.getNick());
+        model.addAttribute("sessionEMAIL",userInfo.getEmail());
 
         return "/index.jsp";
     }

@@ -8,7 +8,7 @@
     <head>
     </head>
     <body>
-    <form name="f1">
+    <form name="f1" onsubmit="return Passwd();" action="/getUpdateContent.do?num=${board.num}" method="post">
     <table border="1" name="t1">
         <tr>
             <td width="70" align="center">글번호</td>
@@ -36,7 +36,7 @@
         </tr>
         <tr>
             <td colspan="4" align="center">
-                <input type="button" value="글수정" onclick="updatePasswd()">
+                <input type="submit" value="글수정">
                 <input type="button" value="글삭제" onclick="deletePasswd()">
                 <input type="button" value="글목록" onclick="window.location='/getListBoard.do'">
             </td>
@@ -47,15 +47,17 @@
     </html>
 <%@include file="/indexBottom.jsp" %>
   <script>
-    function updatePasswd() {
+    var passwd = '${board.passwd}';
+
+    function Passwd() {
         if(f1.passwd.value==''){
             alert("비밀번호가 입력되지않았습니다.");
             f1.passwd.focus();
-        } else if(f1.passwd.value != ${board.passwd}){
+            return false;
+        } else if(f1.passwd.value != passwd){
             alert("비밀번호가 다릅니다.");
             f1.passwd.focus();
-        } else {
-            location.href='/getUpdateContent.do?num=${board.num}';
+            return false;
         }
     }
 
@@ -63,9 +65,11 @@
         if(f1.passwd.value==''){
             alert("비밀번호가 입력되지않았습니다.");
             f1.passwd.focus();
-        }else if(f1.passwd.value != ${board.passwd}){
+            return false;
+        }else if(f1.passwd.value != passwd){
             alert("비밀번호가 다릅니다.");
             f1.passwd.focus;
+            return false;
         }else{
             location.href='/deleteBoard.do?num=${board.num}';
         }
