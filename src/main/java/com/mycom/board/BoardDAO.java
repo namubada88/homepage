@@ -28,7 +28,6 @@ public class BoardDAO extends SqlSessionDaoSupport {
         System.out.println("===> MyBatis로 getListBoard() 기능 처리");
         List<BoardVO> listBoard = new ArrayList<BoardVO>();
         /*limit min, max*/
-        HashMap<String, Object> params = new HashMap<String, Object>();
         listBoard = getSqlSession().selectList("AllDAO.getListBoard", vo);
         this.totalCount = getSqlSession().selectOne("AllDAO.getTotalPaging");
         return listBoard;

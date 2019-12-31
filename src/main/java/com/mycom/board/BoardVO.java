@@ -17,6 +17,7 @@ public class BoardVO {
     private String ch2;
     private int maxLimit;
     private int minLimit;
+    private String errorPasswd;
 
     @Override
     public String toString() {
@@ -36,6 +37,14 @@ public class BoardVO {
                 '}';
     }
 
+
+    public String getErrorPasswd() {
+        return errorPasswd;
+    }
+
+    public void setErrorPasswd(String errorPasswd) {
+        this.errorPasswd = errorPasswd;
+    }
 
     public int getMaxLimit() {
         return maxLimit;
