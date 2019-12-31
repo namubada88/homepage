@@ -2,193 +2,25 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ROOT:war" />
+      <artifact name="realhome:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70cdf055-57e5-48a1-9906-555d0a3f0448" name="Default Changelist" comment="ver 2.0">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ROOT_war/ROOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/META-INF/realhome.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardPaging.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/JDBCUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/MainBoardDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunPaging.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/JDBCUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/MainFunDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/user/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/user/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/user/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/user/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/user/UserVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/sql-map-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/mariadb-java-client-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/mybatis-3.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/mybatis-spring-1.2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/contentBoard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/errorPasswd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/indexBottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/indexCss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/indexTop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/insertBoard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/listBoard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/updateBoard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/confirm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/16e-ab6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/217-b90.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/235-8ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/237-1a5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/2fc-949.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/45a-ccc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/560-7f4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/5b3-d5b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/601-317.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/606-c21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/6ed-e7b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/768-8f8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/7d5-d23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/90e-dde.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/a3a-a59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/a45-7be.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/aea-4d3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/b68-927.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/b96-172.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/d3e-de2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/e3e-c79.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/e53-51d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/efc-0bd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/f08-369.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/다운로드.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/contentFun.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/errorPasswd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/indexBottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/indexCss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/indexTop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/insertFun.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/listFun.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/updateFun.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/indexBottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/indexCss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/indexTop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/mainFun.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/mainList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/indexBottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/indexCss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/indexTop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/joinForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/loginForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/notExistID.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/usingID.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/fun/FunController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/fun/FunDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/fun/FunPaging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/fun/FunService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/fun/FunServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/fun/FunVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/fun/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/fun/MainFunDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/realhome.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/board/BoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/board/BoardDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/board/BoardPaging.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/board/BoardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/board/BoardServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/board/BoardVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/board/JDBCUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/board/MainBoardDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/fun/FunController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/fun/FunDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/fun/FunPaging.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/fun/FunService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/fun/FunServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/fun/FunVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/fun/JDBCUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/fun/MainFunDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/user/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/user/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/user/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/user/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycom/user/UserVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sql-map-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/board/errorPasswd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fun/contentFun.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fun/errorPasswd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fun/indexBottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fun/indexCss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fun/indexTop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fun/insertFun.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fun/listFun.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fun/updateFun.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/mainFun.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/notExistID.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/usingID.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/realhome_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/realhome_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/board/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/board/BoardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/board/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/board/BoardVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql-map-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql-map-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/board/contentBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/contentBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/board/indexTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/indexTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/board/insertBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/insertBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/board/listBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/listBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/board/updateBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/updateBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/indexTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/indexTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/indexTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/indexTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/joinForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/joinForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/loginForm.jsp" afterDir="false" />
+    <list default="true" id="70cdf055-57e5-48a1-9906-555d0a3f0448" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/JDBCUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/JDBCUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/b96-172.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/e3e-c79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fileSave/efc-0bd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/fun/FunController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/fun/FunController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/board/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/board/JDBCUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/fun/FunController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/fun/FunController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/fun/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/fun/JDBCUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,6 +200,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -402,7 +239,7 @@
       <workItem from="1577572683837" duration="7518000" />
       <workItem from="1577599386943" duration="55761000" />
       <workItem from="1577768157503" duration="9731000" />
-      <workItem from="1577777929327" duration="1146000" />
+      <workItem from="1577777929327" duration="2854000" />
     </task>
     <task id="LOCAL-00001" summary="ver 1.0">
       <created>1577543264795</created>
@@ -418,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577620842853</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ver 2.0">
+      <created>1577779176970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577779176970</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,10 +315,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577065116487" />
-    <state x="579" y="115" key="CommitChangelistDialog2" timestamp="1577778637580">
+    <state x="579" y="115" key="CommitChangelistDialog2" timestamp="1577779175554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="579" y="115" key="CommitChangelistDialog2/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577778637580" />
+    <state x="579" y="115" key="CommitChangelistDialog2/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577779175554" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1577778055204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -491,54 +335,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="762" y="224" key="Github.UntrackedFilesDialog/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577543240807" />
-    <state width="1586" height="307" key="GridCell.Tab.0.bottom" timestamp="1577777903247">
+    <state width="1586" height="307" key="GridCell.Tab.0.bottom" timestamp="1577782413262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903247" />
-    <state width="1586" height="307" key="GridCell.Tab.0.center" timestamp="1577777903247">
+    <state width="1586" height="307" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413262" />
+    <state width="1586" height="307" key="GridCell.Tab.0.center" timestamp="1577782413262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903247" />
-    <state width="1586" height="307" key="GridCell.Tab.0.left" timestamp="1577777903247">
+    <state width="1586" height="307" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413262" />
+    <state width="1586" height="307" key="GridCell.Tab.0.left" timestamp="1577782413262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903247" />
-    <state width="1586" height="307" key="GridCell.Tab.0.right" timestamp="1577777903247">
+    <state width="1586" height="307" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413262" />
+    <state width="1586" height="307" key="GridCell.Tab.0.right" timestamp="1577782413262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903247" />
-    <state width="1586" height="307" key="GridCell.Tab.1.bottom" timestamp="1577777903248">
+    <state width="1586" height="307" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413262" />
+    <state width="1586" height="307" key="GridCell.Tab.1.bottom" timestamp="1577782413262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.1.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903248" />
-    <state width="1586" height="307" key="GridCell.Tab.1.center" timestamp="1577777903247">
+    <state width="1586" height="307" key="GridCell.Tab.1.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413262" />
+    <state width="1586" height="307" key="GridCell.Tab.1.center" timestamp="1577782413262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.1.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903247" />
-    <state width="1586" height="307" key="GridCell.Tab.1.left" timestamp="1577777903247">
+    <state width="1586" height="307" key="GridCell.Tab.1.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413262" />
+    <state width="1586" height="307" key="GridCell.Tab.1.left" timestamp="1577782413262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.1.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903247" />
-    <state width="1586" height="307" key="GridCell.Tab.1.right" timestamp="1577777903247">
+    <state width="1586" height="307" key="GridCell.Tab.1.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413262" />
+    <state width="1586" height="307" key="GridCell.Tab.1.right" timestamp="1577782413262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.1.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903247" />
-    <state width="1586" height="307" key="GridCell.Tab.2.bottom" timestamp="1577777903248">
+    <state width="1586" height="307" key="GridCell.Tab.1.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413262" />
+    <state width="1586" height="307" key="GridCell.Tab.2.bottom" timestamp="1577782413263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.2.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903248" />
-    <state width="1586" height="307" key="GridCell.Tab.2.center" timestamp="1577777903248">
+    <state width="1586" height="307" key="GridCell.Tab.2.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413263" />
+    <state width="1586" height="307" key="GridCell.Tab.2.center" timestamp="1577782413263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.2.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903248" />
-    <state width="1586" height="307" key="GridCell.Tab.2.left" timestamp="1577777903248">
+    <state width="1586" height="307" key="GridCell.Tab.2.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413263" />
+    <state width="1586" height="307" key="GridCell.Tab.2.left" timestamp="1577782413263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.2.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903248" />
-    <state width="1586" height="307" key="GridCell.Tab.2.right" timestamp="1577777903248">
+    <state width="1586" height="307" key="GridCell.Tab.2.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413263" />
+    <state width="1586" height="307" key="GridCell.Tab.2.right" timestamp="1577782413263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="307" key="GridCell.Tab.2.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577777903248" />
+    <state width="1586" height="307" key="GridCell.Tab.2.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782413263" />
     <state width="1586" height="307" key="GridCell.Tab.3.bottom" timestamp="1577772865953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -563,10 +407,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577679594623" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577778970287">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577779247213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577778970287" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577779247213" />
     <state x="198" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1577777929320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -599,9 +443,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577543170325" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577674829542">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577782100917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577674829542" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782100917" />
   </component>
 </project>

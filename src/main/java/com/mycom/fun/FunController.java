@@ -130,16 +130,31 @@ public class FunController {
     @RequestMapping(value = "/deleteFun.do")
     public String deleteFun(FunVO vo, HttpServletRequest request, Model model){
         System.out.println("===>Controller로 deleteFun() 접속");
+        String RealPath = request.getSession().getServletContext().getRealPath("/fileSave/");
+        String filename1;
+        String filename2;
+        String filename3;
+
         FunVO m = funService.getFun(vo);
+
         String passwd = request.getParameter("passwd");
-        System.out.println("받는 비밀번호 : "+passwd);
-        System.out.println("비밀번호"+m.getPasswd());
-        System.out.println("오류탐지기1");
         if(!passwd.equals(m.getPasswd())){
-            System.out.println("오류탐지기2");
             model.addAttribute("num", vo.getNum());
             return "/fun/errorPasswd.jsp?num="+vo.getNum()+"";
         }
+
+        filename1 = m.getFileName1();
+        filename2 = m.getFileName2();
+        filename3 = m.getFileName3();
+
+        File file1 = new File(RealPath+filename1);
+        File file2 = new File(RealPath+filename2);
+        File file3 = new File(RealPath+filename3);
+
+        file1.delete();
+        file2.delete();
+        file3.delete();
+
         funService.deleteFun(vo);
         return "redirect:getListFun.do";
     }
