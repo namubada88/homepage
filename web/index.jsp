@@ -23,7 +23,7 @@
     <div class="w3-container" id="planBoard" style="margin-top:75px; color: green; font-weight: bolder;">
         <h1 class="w3-xxxlarge w3-text-green"><b>소개</b></h1>
         <hr style="width:50px;border:5px solid green" class="w3-round">
-        <p>• 구직중인 신입 웹 개발자입니다. 잘 부탁드립니다. (domain goddady에서 구매, cafe24에서 호스트 서버 임대 중)</p>
+        <p>• 구직중인 신입 웹 개발자입니다 잘 부탁드립니다.(domain goddady에서 구매, cafe24에서 호스트 서버 임대 중, 모바일 페이지 최적화)</p>
         <p>• 보유기술1 : JSP, Spring, MyBatis, JSTL, EL, HTMl, CSS, Javascript, DBMS(MariaDB, Oracle, MySql 다룹니다.), Git
             사용가능, MVC 패턴으로
             웹
@@ -45,7 +45,7 @@
     </div>
 
     <!-- Fun sector -->
-    <div class="w3-container" id="funBoard" style="margin-top:75px">
+    <div class="w3-row-padding" id="funBoard" style="margin-top:75px">
         <h1 class="w3-xxxlarge w3-text-green"><b>자료실</b></h1>
         <hr style="width:50px;border:5px solid green" class="w3-round">
         <span class="w3-xlarge">최신글</span>&nbsp;<span style="font-size: small; "><a

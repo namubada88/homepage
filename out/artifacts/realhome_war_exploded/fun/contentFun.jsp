@@ -26,9 +26,9 @@
                 <td align="center">글제목</td>
                 <td colspan="3">${fun.subject}</td>
             </tr>
+            <tr><td colspan="4" align="center">글내용</td></tr>
             <tr>
-                <td align="center">글내용</td>
-                <td colspan="3" style="overflow: visible" width="500">
+                <td colspan="4" style="overflow: visible" width="500">
                     <div>
                         ${fun.content}
                     </div>

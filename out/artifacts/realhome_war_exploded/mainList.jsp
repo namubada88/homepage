@@ -24,7 +24,7 @@
     <title>Title</title>
 </head>
 <body>
-<table border="1">
+<table border="1" cellspacing="0" cellpadding="0">
 <tr align="center"><td>번호</td><td width="300px">제목</td><td>작성자</td></tr>
     <%
         for (int i = 0; i < li.size(); i++) {

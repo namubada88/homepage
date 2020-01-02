@@ -26,10 +26,10 @@
                 <td align="center">글제목</td>
                 <td colspan="3">${board.subject}</td>
             </tr>
+            <tr><td align="center" colspan="4">글내용</td></tr>
             <tr>
-                <td align="center">글내용</td>
                 <div style="max-width: 30%;">
-                <td colspan="3" width="500px" height="300">${board.content}</td>
+                <td colspan="4" width="500px" height="300">${board.content}</td>
                 </div>
             </tr>
             <tr>
