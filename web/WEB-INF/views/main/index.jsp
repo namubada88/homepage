@@ -1,4 +1,3 @@
-<%@include file="indexTop.jsp" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-green w3-xlarge w3-padding">
@@ -60,4 +59,3 @@
         <h2>계획일정</h2>
     </div>
     <!-- W3.CSS Container -->
-    <%@include file="indexBottom.jsp" %>

@@ -1,4 +1,4 @@
-<%@include file="/board/indexTop.jsp" %>
+<%@include file="/WEB-INF/views/board/indexTop.jsp" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta charset="UTF-8">
 <%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
@@ -78,7 +78,7 @@
             alert("로그인 후 글쓰기가 가능합니다.");
             return false;
         } else {
-            location.href = '/board/insertBoard.jsp';
+            location.href = 'insertBoard.jsp';
         }
     }
 </script>

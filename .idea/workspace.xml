@@ -7,138 +7,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70cdf055-57e5-48a1-9906-555d0a3f0448" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Room11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Room11_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tiles/tiles_member.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/commons/layout" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ROOT_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/realhome_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/common/dd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/common/ee.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/common/layout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ROOT_war/ROOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/META-INF/realhome.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardPaging.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/BoardVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/JDBCUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/board/MainBoardDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunPaging.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/FunVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/JDBCUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/fun/MainFunDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/user/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/user/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/user/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/user/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/com/mycom/user/UserVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/mapping.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/classes/sql-map-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/mariadb-java-client-2.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/mybatis-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/mybatis-spring-1.2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/lib/spring-websocket-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/contentBoard.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/errorPasswd.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/indexBottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/commons/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/indexCss.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/commons/css.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/indexTop.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/insertBoard.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/listBoard.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/board/updateBoard.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/confirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/confirm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/contentFun.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/errorPasswd.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/indexBottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/indexBottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/indexCss.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/indexCss.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/indexTop.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/insertFun.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/listFun.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/fun/updateFun.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/indexBottom.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/indexCss.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/indexTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/indexTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/mainFun.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/mainFun.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/mainList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/mainList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/indexBottom.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/indexCss.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/indexTop.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/joinForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/loginForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/notExistID.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/realhome_war_exploded/user/usingID.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/board/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/board/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/fun/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/fun/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/realhome.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/board/contentBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/contentBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/board/indexTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/indexTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/board/insertBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/insertBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/board/listBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/listBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/board/updateBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/updateBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/confirm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fun/contentFun.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/fun/contentFun.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tiles/tiles_member.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tiles/tiles_member.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/commons/css.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/common/css.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/commons/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/common/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/commons/layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/commons/side.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/common/side.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/board/contentBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/contentBoard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/board/errorPasswd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/errorPasswd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/board/indexBottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/indexBottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/board/indexCss.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/indexCss.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/board/indexTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/indexTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/board/insertBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/insertBoard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/board/listBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/listBoard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/board/updateBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/updateBoard.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/fun/indexTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/fun/indexTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fun/listFun.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/fun/listFun.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fun/updateFun.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/fun/updateFun.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/indexBottom.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/indexCss.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/indexTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/commons/side.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mainFun.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mainList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/confirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/confirm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/indexBottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/indexBottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/indexCss.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/indexCss.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/indexTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/indexTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/mainFun.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/mainFun.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/mainList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/mainList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/user/indexTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/indexTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/joinForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/joinForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/loginForm.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Room11" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -146,8 +50,8 @@
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -209,30 +113,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/views/common" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.20229885" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyStudyRoom\Room11\web\WEB-INF\views\common" />
+      <recent name="C:\MyStudyRoom\Room11\out\artifacts\Room11_Web_exploded\WEB-INF\views\commons" />
+      <recent name="C:\MyStudyRoom\Room11\out\artifacts\Room11_Web_exploded\WEB-INF\views" />
+      <recent name="C:\MyStudyRoom\Room11\web\WEB-INF\views" />
       <recent name="C:\MyStudyRoom\Room11\web\WEB-INF" />
-      <recent name="C:\MyStudyRoom\Room11\src\main\resources\tiles" />
-      <recent name="C:\IProject\realhome\web\fun" />
-      <recent name="C:\IProject\realhome\web\user" />
-      <recent name="C:\IProject\realhome\web\board" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mycom" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyStudyRoom\Room11\web\WEB-INF\views" />
       <recent name="C:\MyStudyRoom\Room11\web\main" />
       <recent name="C:\IProject\realhome\web\shopresources" />
       <recent name="C:\IProject\realhome\web\board" />
@@ -329,7 +234,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -372,7 +277,8 @@
       <workItem from="1577982228661" duration="237000" />
       <workItem from="1577982751137" duration="439000" />
       <workItem from="1577983641212" duration="109000" />
-      <workItem from="1578745954589" duration="5486000" />
+      <workItem from="1578745954589" duration="12030000" />
+      <workItem from="1578809290718" duration="1851000" />
     </task>
     <task id="LOCAL-00001" summary="ver 1.0">
       <created>1577543264795</created>
@@ -402,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577782545945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ver 4.2">
+      <created>1578799534673</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578799534673</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,16 +338,18 @@
     <MESSAGE value="ver 1.0" />
     <MESSAGE value="ver 2.0" />
     <MESSAGE value="ver 4.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver 4.0" />
+    <MESSAGE value="ver 4.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver 4.2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" key="#Inspections" timestamp="1578794661285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#Inspections/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578794661285" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578746214872">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578806232410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578806232410" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746214872" />
     <state x="2334" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982308985" />
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1577774978539">
@@ -470,14 +385,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746104641" />
-    <state x="579" y="115" key="CommitChangelistDialog2" timestamp="1577983808849">
+    <state x="579" y="115" key="CommitChangelistDialog2" timestamp="1578799533324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="579" y="115" key="CommitChangelistDialog2/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799533324" />
     <state x="579" y="115" key="CommitChangelistDialog2/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577983808849" />
-    <state x="740" y="260" width="739" height="762" key="FileChooserDialogImpl" timestamp="1578797127051">
+    <state x="740" y="260" width="739" height="762" key="FileChooserDialogImpl" timestamp="1578804422639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="260" width="739" height="762" key="FileChooserDialogImpl/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578797127051" />
+    <state x="740" y="260" width="739" height="762" key="FileChooserDialogImpl/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578804422639" />
     <state x="740" y="260" key="FileChooserDialogImpl/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746380904" />
     <state x="791" y="415" width="361" height="209" key="Github.CreateGistDialog" timestamp="1577532749899">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -491,76 +407,76 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="762" y="224" key="Github.UntrackedFilesDialog/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577543240807" />
-    <state width="1586" height="282" key="GridCell.Tab.0.bottom" timestamp="1578799419328">
+    <state width="1586" height="2" key="GridCell.Tab.0.bottom" timestamp="1578812903990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.0.bottom/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419328" />
+    <state width="1586" height="2" key="GridCell.Tab.0.bottom/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903990" />
     <state width="1586" height="268" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405825" />
     <state width="1586" height="515" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211660" />
-    <state width="1586" height="282" key="GridCell.Tab.0.center" timestamp="1578799419327">
+    <state width="1586" height="2" key="GridCell.Tab.0.center" timestamp="1578812903989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.0.center/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419327" />
+    <state width="1586" height="2" key="GridCell.Tab.0.center/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903989" />
     <state width="1586" height="268" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405825" />
     <state width="1586" height="515" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211660" />
-    <state width="1586" height="282" key="GridCell.Tab.0.left" timestamp="1578799419327">
+    <state width="1586" height="2" key="GridCell.Tab.0.left" timestamp="1578812903988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.0.left/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419327" />
+    <state width="1586" height="2" key="GridCell.Tab.0.left/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903988" />
     <state width="1586" height="268" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405825" />
     <state width="1586" height="515" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211660" />
-    <state width="1586" height="282" key="GridCell.Tab.0.right" timestamp="1578799419328">
+    <state width="1586" height="2" key="GridCell.Tab.0.right" timestamp="1578812903990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.0.right/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419328" />
+    <state width="1586" height="2" key="GridCell.Tab.0.right/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903990" />
     <state width="1586" height="268" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405825" />
     <state width="1586" height="515" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211660" />
-    <state width="1586" height="282" key="GridCell.Tab.1.bottom" timestamp="1578799419275">
+    <state width="1586" height="2" key="GridCell.Tab.1.bottom" timestamp="1578812903991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.1.bottom/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419275" />
+    <state width="1586" height="2" key="GridCell.Tab.1.bottom/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903991" />
     <state width="1586" height="268" key="GridCell.Tab.1.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405770" />
     <state width="1586" height="515" key="GridCell.Tab.1.bottom/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211661" />
-    <state width="1586" height="282" key="GridCell.Tab.1.center" timestamp="1578799419275">
+    <state width="1586" height="2" key="GridCell.Tab.1.center" timestamp="1578812903991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.1.center/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419275" />
+    <state width="1586" height="2" key="GridCell.Tab.1.center/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903991" />
     <state width="1586" height="268" key="GridCell.Tab.1.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405770" />
     <state width="1586" height="515" key="GridCell.Tab.1.center/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211660" />
-    <state width="1586" height="282" key="GridCell.Tab.1.left" timestamp="1578799419275">
+    <state width="1586" height="2" key="GridCell.Tab.1.left" timestamp="1578812903990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.1.left/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419275" />
+    <state width="1586" height="2" key="GridCell.Tab.1.left/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903990" />
     <state width="1586" height="268" key="GridCell.Tab.1.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405770" />
     <state width="1586" height="515" key="GridCell.Tab.1.left/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211660" />
-    <state width="1586" height="282" key="GridCell.Tab.1.right" timestamp="1578799419275">
+    <state width="1586" height="2" key="GridCell.Tab.1.right" timestamp="1578812903991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.1.right/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419275" />
+    <state width="1586" height="2" key="GridCell.Tab.1.right/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903991" />
     <state width="1586" height="268" key="GridCell.Tab.1.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405770" />
     <state width="1586" height="515" key="GridCell.Tab.1.right/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211660" />
-    <state width="1586" height="282" key="GridCell.Tab.2.bottom" timestamp="1578799419275">
+    <state width="1586" height="2" key="GridCell.Tab.2.bottom" timestamp="1578812903991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.2.bottom/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419275" />
+    <state width="1586" height="2" key="GridCell.Tab.2.bottom/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903991" />
     <state width="1586" height="268" key="GridCell.Tab.2.bottom/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405770" />
     <state width="1586" height="515" key="GridCell.Tab.2.bottom/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211661" />
-    <state width="1586" height="282" key="GridCell.Tab.2.center" timestamp="1578799419275">
+    <state width="1586" height="2" key="GridCell.Tab.2.center" timestamp="1578812903991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.2.center/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419275" />
+    <state width="1586" height="2" key="GridCell.Tab.2.center/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903991" />
     <state width="1586" height="268" key="GridCell.Tab.2.center/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405770" />
     <state width="1586" height="515" key="GridCell.Tab.2.center/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211661" />
-    <state width="1586" height="282" key="GridCell.Tab.2.left" timestamp="1578799419275">
+    <state width="1586" height="2" key="GridCell.Tab.2.left" timestamp="1578812903991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.2.left/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419275" />
+    <state width="1586" height="2" key="GridCell.Tab.2.left/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903991" />
     <state width="1586" height="268" key="GridCell.Tab.2.left/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405770" />
     <state width="1586" height="515" key="GridCell.Tab.2.left/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211661" />
-    <state width="1586" height="282" key="GridCell.Tab.2.right" timestamp="1578799419275">
+    <state width="1586" height="2" key="GridCell.Tab.2.right" timestamp="1578812903991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="282" key="GridCell.Tab.2.right/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799419275" />
+    <state width="1586" height="2" key="GridCell.Tab.2.right/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578812903991" />
     <state width="1586" height="268" key="GridCell.Tab.2.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746405770" />
     <state width="1586" height="515" key="GridCell.Tab.2.right/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577982211661" />
     <state width="1586" height="252" key="GridCell.Tab.3.bottom" timestamp="1577963409182">
@@ -579,19 +495,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1586" height="252" key="GridCell.Tab.3.right/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577963409182" />
+    <state x="184" y="84" key="MergeDialog" timestamp="1578799649384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="84" key="MergeDialog/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799649384" />
+    <state x="667" y="232" key="MultipleFileMergeDialog" timestamp="1578799649392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="232" key="MultipleFileMergeDialog/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799649392" />
     <state x="789" y="230" key="RollbackChangesDialog" timestamp="1577668084544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="789" y="230" key="RollbackChangesDialog/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577668084544" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1578798436439">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1578807470178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578798436439" />
+    <state x="440" y="94" key="SettingsEditor/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578807470178" />
     <state x="440" y="94" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1578746389540" />
     <state x="2360" y="105" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1040@1920.0.1920.1160" timestamp="1577983701962" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577782556373">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1578799668200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1578799668200" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1577782556373" />
     <state x="2118" y="163" key="com.intellij.ide.util.TipDialog" timestamp="1577982232091">
       <screen x="1920" y="0" width="1920" height="1160" />
