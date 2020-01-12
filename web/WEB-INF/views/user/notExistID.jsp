@@ -8,5 +8,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <script>
     alert("존재하지않는 ID입니다.");
-    location.href="/user/loginForm.jsp";
+    location.href="loginForm.jsp";
 </script>

@@ -1,4 +1,3 @@
-<%@include file="/WEB-INF/views/board/indexTop.jsp" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta charset="UTF-8">
 <%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
@@ -69,7 +68,6 @@
     </div>
 </div>
 
-<%@include file="/main/indexBottom.jsp" %>
 
 <script>
     function checkLogin() {

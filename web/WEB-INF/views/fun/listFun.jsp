@@ -1,4 +1,3 @@
-<%@include file="/board/indexTop.jsp" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta charset="UTF-8">
 <%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
@@ -69,7 +68,7 @@
     </div>
 </div>
 
-<%@include file="/main/indexBottom.jsp" %>
+
 
 <script>
     function checkLogin() {
@@ -78,7 +77,7 @@
             alert("로그인 후 글쓰기가 가능합니다.");
             return false;
         } else {
-            location.href = '/fun/insertFun.jsp';
+            location.href = 'insertFun.jsp';
         }
     }
 </script>

@@ -1,4 +1,3 @@
-<%@include file="indexTop.jsp" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta charset="UTF-8">
 <%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
@@ -44,7 +43,7 @@
             </tr>
         </table>
     </form>
-    <%@include file="/main/indexBottom.jsp" %>
+</div>
 
     <script>
         function cehckInsertForm() {

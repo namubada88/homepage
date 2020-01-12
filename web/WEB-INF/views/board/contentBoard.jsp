@@ -1,13 +1,14 @@
-<%@include file="indexTop.jsp" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta charset="UTF-8">
 <%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
-<div class="w3-main" style="margin-left:340px;margin-right:40px; margin-top:80px;">
+
+
     <html>
     <head>
     </head>
     <body>
+    <div class="w3-main" style="margin-left:340px;margin-right:40px; margin-top:80px;">
     <form name="f1" onsubmit="return Passwd();" action="/getUpdateBoardContent.do?num=${board.num}" method="post">
         <table border="1" name="t1" cellspacing="0" cellpadding="0">
             <tr>
@@ -50,9 +51,12 @@
             </tr>
         </table>
     </form>
+    </div>
     </body>
     </html>
-    <%@include file="/main/indexBottom.jsp" %>
+
+
+
     <script>
         function Passwd() {
             if (f1.passwd.value == '') {

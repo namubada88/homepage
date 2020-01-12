@@ -13,7 +13,7 @@ import java.util.List;
 
 @Controller
 @SessionAttributes({"sessionID","sessionNICK","sessionEMAIL"})
-public class UserController {
+public class     UserController {
     @Autowired
     UserService userService;
 

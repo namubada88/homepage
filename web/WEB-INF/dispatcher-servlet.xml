@@ -9,11 +9,8 @@
     <mvc:annotation-driven></mvc:annotation-driven>
     <context:component-scan base-package="com.mycom" />
 
-
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/views/" />
-        <property name="suffix" value=".jsp" />
-        <property name="order" value="2"/>
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="10485760" />
     </bean>
 
     <!-- 패키지 tiles의 모든 설정 XML 파일을 읽어 들인다. -->
@@ -30,6 +27,12 @@
     <bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.tiles3.TilesView" />
         <property name="order" value="1" />
+    </bean>
+
+    <!-- 타일즈 뷰리졸버에 포함되지않은 것은 다음과 같이 view 셋팅을 한다. -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views" />
+        <property name="order" value="2"/>
     </bean>
 
 </beans>
