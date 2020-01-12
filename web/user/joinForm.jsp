@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<%@include file="/indexBottom.jsp" %>
+<%@include file="/main/indexBottom.jsp" %>
 
 <script language="JavaScript">
     function checkJoinForm() {

@@ -36,4 +36,4 @@
     </form>
     </body>
     </html>
-<%@include file="/indexBottom.jsp" %>
+<%@include file="/main/indexBottom.jsp" %>

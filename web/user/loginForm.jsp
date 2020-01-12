@@ -25,7 +25,7 @@
     </div>
 </div>
 
-<%@include file="/indexBottom.jsp" %>
+<%@include file="/main/indexBottom.jsp" %>
 
 <script>
     function checkLoginForm() {

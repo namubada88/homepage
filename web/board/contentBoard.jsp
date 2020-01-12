@@ -52,7 +52,7 @@
     </form>
     </body>
     </html>
-    <%@include file="/indexBottom.jsp" %>
+    <%@include file="/main/indexBottom.jsp" %>
     <script>
         function Passwd() {
             if (f1.passwd.value == '') {
