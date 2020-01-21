@@ -29,7 +29,8 @@
             구축</p>
         <p>• 보유기술2 : Eclipse, IntelliJ IDEA 사용가능, 가상머신을 이용한 리눅스 서버구축, 로그인, 게시판, 자료실, 관리자 페이지 구축가능, 모의 쇼핑몰 구축중</p>
         <p>• 자격증 : 네트워크 관리사 2급, 전자상거래 운용사</p>
-        <p>• 공부예정항목 : Spring Boot, JPA, Vue.js, CentOS 리눅스, namubada.com 각종 기능 추가 예정</p>
+        <p>• 공부중 : 웹 쇼핑몰 구축(mariadb, mybtis, tiles, el, jstl, spring 을 이용하여 구축중), oracle, mariadb dbms, CentOS 공부 중</p>
+        <p>• 공부예정항목 : Spring Boot, JPA, Vue.js, namubada.com 각종 기능 추가 예정</p>
         <p>• Git Page : https://github.com/namubada88 <a href="https://github.com/namubada88"> 소스코드 확인 바로가기(클릭)</a></p>
         <p>• 공부 기록 블로그 : http://www.namubada.net <a href="http://www.namubada.net">바로가기(클릭)</a></p>
     </div>
