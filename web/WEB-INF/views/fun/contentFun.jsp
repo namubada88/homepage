@@ -4,6 +4,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <c:set var="contextPath" value="${PageContext.request.contextPath}"/>
 <div class="w3-main" style="margin-left:340px;margin-right:40px; margin-top:80px;">
+    <p><%=request.getSession().getServletContext().getRealPath("/fileSave/")%></p>
     <form name="f1" onsubmit="return Passwd();" action="/getUpdateFunContent.do?num=${fun.num}" method="post">
         <table border="1" name="t1" cellspacing="0" cellpadding="0">
             <tr>

@@ -19,7 +19,8 @@ public class FileDownload {
                              HttpServletResponse response, HttpServletRequest request) throws Exception {
         String CURR_IMAGE_REPO_PATH = request.getSession().getServletContext().getRealPath("/fileSave/");
         OutputStream out = response.getOutputStream();
-        String downFile=CURR_IMAGE_REPO_PATH+"\\"+fileName;
+        /* 파일 경로 저장 */
+        String downFile=CURR_IMAGE_REPO_PATH+fileName;
         System.out.println("파일 경로 : "+downFile);
         File f = new File(downFile);
 
