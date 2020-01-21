@@ -19,7 +19,7 @@ public class FunController {
     @Autowired
     FunService funService;
 
-    @RequestMapping(value = "/insertForm.do")
+    @RequestMapping(value = "/insertFunForm.do")
     public String insertForm(){
         return "/fun/insertFun.jsp";
     }

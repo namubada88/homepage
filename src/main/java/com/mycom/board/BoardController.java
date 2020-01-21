@@ -14,6 +14,11 @@ public class BoardController {
     @Autowired
     BoardService boardService;
 
+    @RequestMapping(value = "/insertBoardForm.do")
+    public String insertForm(){
+        return "/board/insertBoard.jsp";
+    }
+
     @RequestMapping(value = "/getListBoard.do")
     public String getListBoard(Model model, HttpServletRequest request, BoardVO vo) {
         System.out.println("===>Controller로 getListBoard() 접속");
