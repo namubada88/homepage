@@ -42,7 +42,7 @@ public class     UserController {
         model.addAttribute("sessionID", userInfo.getId());
         model.addAttribute("sessionNICK",userInfo.getNick());
         model.addAttribute("sessionEMAIL",userInfo.getEmail());
-        return "/index.jsp";
+        return "/main/index.jsp";
     }
 
     @RequestMapping(value = "/getListUser.do")
@@ -75,7 +75,7 @@ public class     UserController {
                 model.addAttribute("sessionID", userInfo.getId());
                 model.addAttribute("sessionNICK",userInfo.getNick());
                 model.addAttribute("sessionEMAIL",userInfo.getEmail());
-                return "/index.jsp";
+                return "/main/index.jsp";
             }
         }
         return "/user/notExistID.jsp";

@@ -12,7 +12,7 @@ public class JDBCUtil {
     public static Connection getConnection() throws SQLException {
         try {
             Class.forName("org.mariadb.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mariadb://#/#", "#", "#");
+            conn = DriverManager.getConnection("jdbc:mariadb://namubada.com/augustman88", "augustman88", "dudrnek9");
             return conn;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

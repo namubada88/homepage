@@ -13,4 +13,7 @@
     <definition name="main" extends="baseLayout">
         <put-attribute name="body" value="/WEB-INF/views/main/index.jsp" />
     </definition>
+    <definition name="/main/index.jsp" extends="baseLayout">
+        <put-attribute name="body" value="/WEB-INF/views/main/index.jsp" />
+    </definition>
 </tiles-definitions>

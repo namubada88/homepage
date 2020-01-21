@@ -1,9 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<meta charset="UTF-8">
 <%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
-
+<meta charset="UTF-8">
 <header class="w3-container w3-top w3-hide-large w3-green w3-xlarge w3-padding">
     <a href="javascript:void(0)" class="w3-button w3-green w3-margin-right" onclick="w3_open()">☰</a>
     <span>나무바다</span>
@@ -77,7 +76,7 @@
             alert("로그인 후 글쓰기가 가능합니다.");
             return false;
         } else {
-            location.href = 'insertFun.jsp';
+            location.href = 'insertForm.do';
         }
     }
 </script>

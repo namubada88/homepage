@@ -19,6 +19,11 @@ public class FunController {
     @Autowired
     FunService funService;
 
+    @RequestMapping(value = "/insertForm.do")
+    public String insertForm(){
+        return "/fun/insertFun.jsp";
+    }
+
     @RequestMapping(value = "/getListFun.do")
     public String getListFun(Model model, HttpServletRequest request, FunVO vo){
         System.out.println();
@@ -65,13 +70,14 @@ public class FunController {
         System.out.println("===>Controller로 insertFun() 접속");
         System.out.println("writer : "+vo.getWriter());
 
+
+
         MultipartFile uploadFile1 = vo.getUploadFile1();
         MultipartFile uploadFile2 = vo.getUploadFile2();
         MultipartFile uploadFile3 = vo.getUploadFile3();
         String genId1 = UUID.randomUUID().toString().substring(5,12);
         String genId2 = UUID.randomUUID().toString().substring(5,12);
         String genId3 = UUID.randomUUID().toString().substring(5,12);
-
 
 
         String RealPath = request.getSession().getServletContext().getRealPath("/fileSave/");

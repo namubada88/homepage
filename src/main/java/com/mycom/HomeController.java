@@ -11,5 +11,4 @@ public class HomeController {
         System.out.println("타일즈 접속");
         return "main";
     }
-
 }

@@ -1,13 +1,9 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta charset="UTF-8">
 <%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<c:set var="contextPath" value="${PageContext.request.contextPath}"/>
 <div class="w3-main" style="margin-left:340px;margin-right:40px; margin-top:80px;">
-    <html>
-    <head>
-    </head>
-    <body>
     <form name="f1" onsubmit="return Passwd();" action="/getUpdateFunContent.do?num=${fun.num}" method="post">
         <table border="1" name="t1" cellspacing="0" cellpadding="0">
             <tr>
@@ -26,16 +22,27 @@
                 <td align="center">글제목</td>
                 <td colspan="3">${fun.subject}</td>
             </tr>
-            <tr><td colspan="4" align="center">글내용</td></tr>
+            <tr>
+                <td colspan="4" align="center">글내용</td>
+            </tr>
             <tr>
                 <td colspan="4" style="overflow: visible" width="500">
                     <div>
                         ${fun.content}
                     </div>
                     <div>
-                        <img src="./fileSave/${fun.fileName1}" style="width: 100%"/><br/>
-                        <img src="./fileSave/${fun.fileName2}" style="width: 100%"/><br/>
-                        <img src="./fileSave/${fun.fileName3}" style="width: 100%"/><br/>
+                        <c:if test="${fun.fileName1 != null}">
+                            <img src="${contextPath}/fileDownload.do?fileName=${fun.fileName1}"
+                                 style="width: 100%"/><br/>
+                        </c:if>
+                        <c:if test="${fun.fileName2 != null}">
+                            <img src="${contextPath}/fileDownload.do?fileName=${fun.fileName2}"
+                                 style="width: 100%"/><br/>
+                        </c:if>
+                        <c:if test="${fun.fileName3 != null}">
+                            <img src="${contextPath}/fileDownload.do?fileName=${fun.fileName3}"
+                                 style="width: 100%"/><br/>
+                        </c:if>
                     </div>
                 </td>
             </tr>
@@ -52,25 +59,24 @@
             </tr>
         </table>
     </form>
-    </body>
-    </html>
+</div>
 
-    <script>
-        function Passwd() {
-            if (f1.passwd.value == '') {
-                alert("비밀번호가 입력되지않았습니다.");
-                f1.passwd.focus();
-                return false;
-            }
+<script>
+    function Passwd() {
+        if (f1.passwd.value == '') {
+            alert("비밀번호가 입력되지않았습니다.");
+            f1.passwd.focus();
+            return false;
         }
+    }
 
-        function deletePasswd() {
-            if (f1.passwd.value == '') {
-                alert("비밀번호가 입력되지않았습니다.");
-                f1.passwd.focus();
-                return false;
-            } else {
-                location.href = '/deleteFun.do?num=${fun.num}&passwd='+f1.passwd.value;
-            }
+    function deletePasswd() {
+        if (f1.passwd.value == '') {
+            alert("비밀번호가 입력되지않았습니다.");
+            f1.passwd.focus();
+            return false;
+        } else {
+            location.href = '/deleteFun.do?num=${fun.num}&passwd=' + f1.passwd.value;
         }
-    </script>
+    }
+</script>
